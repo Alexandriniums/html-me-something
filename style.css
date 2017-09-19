@@ -1,0 +1,89 @@
+body {
+    background-color: #D9F1F5;
+    color: #626262;
+    font-family: Garamond, serif;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+	}
+
+header {
+    background-color: #ECECEC;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+footer {
+    background-color: #ECECEC;
+	height: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+hr {
+    width: 80%;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+}
+
+div.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+div.desc {
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+#rotate {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}	
+
